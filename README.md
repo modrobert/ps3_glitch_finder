@@ -28,10 +28,14 @@ Features:
 
 Operation:
 ==========
+==== One-shot mode ====
 ![One-shot mode](https://raw.githubusercontent.com/modrobert/ps3_glitch_finder/master/ps3_glitch_finder_one_shot_pulse.jpg)
+
 As seen on the image above the high pulse multiplier is set to X"64" (100 decimal x 5ns = 500ns = 0.5µs) and low pulse multiplier is at X"C8" (200 decimal x 5ns = 1000ns = 1µs), the lower part of the image is the pasted output from the logic analyzer to verify function. The device is set to one-shot pulse mode. The regular LED down on the right shows that the Digital Clock Manager is locked (at 200MHz / 5ns in this case).
 
+==== Continuous mode ====
 ![Continuous mode](https://raw.githubusercontent.com/modrobert/ps3_glitch_finder/master/ps3_glitch_finder_continous_pulse.jpg)
+
 Here you can see the continuous mode in action, again, with high pulse multiplier set to X"64" (100 decimal x 5ns = 500ns = 0.5µs) and low pulse multiplier at X"C8" (200 decimal x 5ns = 1000ns = 1µs). The second LED down on the right indicates continuous mode is selected. 
 
 Requirements:
